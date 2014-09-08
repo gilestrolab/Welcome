@@ -15,7 +15,7 @@
 [FlyC31](http://www.frontiers-in-genetics.org/flyc31/) – Resources on PhiC31 integrase system implemented in flies
 
 ## Crispr design tools 
-[Zhang lab](http://crispr.mit.edu/ (also: Google discussion group)
+[Zhang lab](http://crispr.mit.edu/) (also: Google discussion group)
 [Crispr Design tool](http://tools.flycrispr.molbio.wisc.edu/targetFinder)
 [e-crisp](http://www.e-crisp.org/E-CRISP)
 
