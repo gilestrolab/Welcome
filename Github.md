@@ -36,5 +36,17 @@ If you start a new project, and you want to create a repository,
 consider/discuss beforehand whether you would like to make it public or private.
 
 
+HOW TO: Sunchronize your files to github (Anne's dummy guide) ?
+--------------------
+1. Log in to github and make a repository for your project of choice
+2. On the github page of your new repo, copy the clone URL
+3. Open terminal and cd in the directory where you want to have your github files
+4. Enter "git clone (copy of clone URL) (YourDirName)", in the clone URL, add your github username and an "@" in front of "github", i.e. "https://username@github.com/gilestrolab..."
+5. cd to the new directory and make subdirectories of your choice (mkdir YourSubdirectory)
+6. make dummy files in the subdirectories as github won't push empty directories by, e.g., "touch YourSubdirectory/dummy"
+7. Add all to git by "git add ."
+8. Comment what you just did " git commit -m "YourComment" "
+9. git push
+10. If your repo is private, you will have to enter your password now.
 
 Happy coding
