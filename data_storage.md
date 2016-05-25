@@ -53,6 +53,12 @@ go to Control Panel/Privilege Settings/Users/Create
 
 Then simply add user to the `lab_members` group
 
+Remote Backups
+------------------------
+This system is a storage platform, **not a backup**.
+Every week, on sunday, files should be archived on an external storage (e.g. box.com).
+This is TODO.
+
 
 Technical detail
 ----------------------------
@@ -62,5 +68,6 @@ Primary MAC  address: `00:08:9b:f8:9e:17`
 url (suggested):  `nas.lab.gilest.ro`
 
 NAS Name: `nas-gilestro`
+
 
 
