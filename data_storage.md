@@ -55,6 +55,6 @@ Technical detail
 * Primary MAC  address: `00:08:9b:f8:9e:17`
 * url (suggested):  `nas.lab.gilest.ro`
 * NAS Name: `nas-gilestro`
-
+* One can ssh in the nas **as admin only** 
 
 
