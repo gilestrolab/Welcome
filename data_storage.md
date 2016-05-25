@@ -28,7 +28,6 @@ Users
     * RW access to "auto_generated_data"
 
 Directories organisation:
-
 ------------------------------------------
 
 In addition to individual users' home, their are three special directories. Here is a short description of each of them:
@@ -41,8 +40,11 @@ In addition to individual users' home, their are three special directories. Here
 
 * `homes`: every user has a personal home which is read-write for him/herself. In addition, it is **read-only for other lab members and lab guests**.
 
-Adding a new lab member (admin)
+Access data
+----------------------------------
+TODO
 
+Adding a new lab member (admin)
 ------------------------------------------------
 
 Through the NAS web interface (http://nas.lab.gilest.ro/:8080/cgi-bin/)
@@ -53,7 +55,6 @@ Then simply add user to the `lab_members` group
 
 
 Technical detail
-
 ----------------------------
 
 Primary MAC  address: `00:08:9b:f8:9e:17`
