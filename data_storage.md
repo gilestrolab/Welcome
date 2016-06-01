@@ -59,11 +59,10 @@ In this example, you want to have a local sync of the `auto_generated_data` dire
 # ls /mnt/nas/auto_generated_data
 ```
 * Run the [fetching script](https://github.com/gilestrolab/labscripts/blob/master/workstation/fetch_ethoscope_results.sh)
-* You can add this script to a cronjob like [this one](https://github.com/gilestrolab/labscripts/blob/master/workstation/crontab)
+* You can add this script to a cronjob like in [this one](https://github.com/gilestrolab/labscripts/blob/master/workstation/crontab) (obviously just take the relevant line).
 
 Should you need it, use the same principle to sync ethoscope videos and other resources.
-
-
+Have a look at our [workstation scripts page](https://github.com/gilestrolab/labscripts/tree/master/workstation) for other jobs you may want to do.
 
 Adding a new lab member (admin)
 ------------------------------------------------
