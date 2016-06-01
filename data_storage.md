@@ -33,7 +33,33 @@ In addition to individual users' home, their are three special directories. Here
 
 Access data
 ----------------------------------
-TODO
+
+### Linux
+
+In linux, the simplest is to mount the nas shared and to use rsync on cronjobs to get new data.
+
+In this example, you want to have a local sync of the `auto_generated_data` directory on the nas.
+
+1. Make a dir to mount the share too:
+```sh
+# mkdir /mnt/nas/auto_generated_data -p
+```
+2. Make a dir on a local drive to put the data in:
+```sh
+# mkdir /data/ethoscope_results -p
+```
+3. Add a line in your fstab to mount the share ([see here](https://github.com/gilestrolab/labscripts/blob/master/workstation/fstab))
+4. Create a `/root/.nas_creds` files with your credentials
+5. Try mounting the share:
+```sh
+# mount -a
+# ls /mnt/nas/auto_generated_data
+```
+6. Run the [fetching script](https://github.com/gilestrolab/labscripts/blob/master/workstation/fetch_ethoscope_results.sh) 7. You can add this script to a cronjob like [this one](https://github.com/gilestrolab/labscripts/blob/master/workstation/crontab)
+
+You can use the same principle to sync ethoscope videos and other resources.
+
+
 
 Adding a new lab member (admin)
 ------------------------------------------------
