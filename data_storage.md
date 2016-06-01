@@ -43,7 +43,7 @@ In linux, the simplest is to mount the nas shared and to use rsync on cronjobs t
 
 In this example, you want to have a local sync of the `auto_generated_data` directory on the nas.
 
-* Make a dir to mount the share too:
+* Make a dir to mount the share to:
 ```sh
 # mkdir /mnt/nas/auto_generated_data -p
 ```
@@ -58,9 +58,10 @@ In this example, you want to have a local sync of the `auto_generated_data` dire
 # mount -a
 # ls /mnt/nas/auto_generated_data
 ```
-* Run the [fetching script](https://github.com/gilestrolab/labscripts/blob/master/workstation/fetch_ethoscope_results.sh) * You can add this script to a cronjob like [this one](https://github.com/gilestrolab/labscripts/blob/master/workstation/crontab)
+* Run the [fetching script](https://github.com/gilestrolab/labscripts/blob/master/workstation/fetch_ethoscope_results.sh)
+* You can add this script to a cronjob like [this one](https://github.com/gilestrolab/labscripts/blob/master/workstation/crontab)
 
-You can use the same principle to sync ethoscope videos and other resources.
+Should you need it, use the same principle to sync ethoscope videos and other resources.
 
 
 
