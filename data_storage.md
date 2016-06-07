@@ -66,7 +66,9 @@ Have a look at our [workstation scripts page](https://github.com/gilestrolab/lab
 
 You can also mount your home (to which you have read-write access) by adding this file to your fstab:
 
+```sh
 # //nas.lab.gilest.ro/home /mnt/diana_nas cifs defaults,uid=1000,gid=1000,credentials=/etc/.nas_creds 0 0
+```
 
 Adding a new lab member (admin)
 ------------------------------------------------
