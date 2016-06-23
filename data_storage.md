@@ -88,7 +88,9 @@ Remote Backups
 This system is a storage platform, **not a backup**.
 Every week, on saturday, ethoscope *video* files are archived are archives an external storage (e.g. box.com).
 Every week, on sunday, ethoscope *db*  files are archived are archives an external storage (e.g. box.com).
+This tasks are perforemd by the workstation, and email is sent to the administrator upon completion.
 
+**TODO** send email to a list like "ethoscope-users@lab.gilest.ro" instead, or publish a backup status page on some html server.
 
 Technical detail
 ----------------------------
