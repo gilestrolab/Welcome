@@ -64,10 +64,10 @@ In this example, you want to have a local sync of the `auto_generated_data` dire
 Should you need it, use the same principle to sync ethoscope videos and other resources.
 Have a look at our [workstation scripts page](https://github.com/gilestrolab/labscripts/tree/master/workstation) for other jobs you may want to do.
 
-You can also mount your home (to which you have read-write access) by adding this file to your fstab:
+You can also mount your home (to which you have read-write access) by adding this file to your fstab. E.g. :
 
 ```sh
-# //nas.lab.gilest.ro/home /mnt/diana_nas cifs defaults,uid=1000,gid=1000,credentials=/etc/.nas_creds 0 0
+# //nas.lab.gilest.ro/home /mnt/my_home cifs defaults,uid=1000,gid=1000,credentials=/etc/.nas_creds 0 0
 ```
 
 Adding a new lab member (admin)
