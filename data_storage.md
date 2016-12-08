@@ -51,12 +51,21 @@ In this example, you want to have a local sync of the `auto_generated_data` dire
 ```sh
 # mkdir /data/ethoscope_results -p
 ```
-* Add a line in your fstab to mount the share ([see here](https://github.com/gilestrolab/labscripts/blob/master/workstation/fstab))
-* Create a `/root/.nas_creds` files with your credentials
+* Locate your fstab file:
+```sh
+# gedit /etc/fstab
+```
+
+* Add a line in your fstab to mount the share ([see here](https://github.com/gilestrolab/labscripts/blob/master/workstation/fstab), uncomment the third line).
+* Create a `/root/.nas_creds` files with your credentials (the login credentials of the nas website)
 * Try mounting the share:
 ```sh
 # mount -a
 # ls /mnt/nas/auto_generated_data
+```
+* Or specifically the nas:
+```sh
+# mount /mnt/nas/auto_generated_data
 ```
 * Run the [fetching script](https://github.com/gilestrolab/labscripts/blob/master/workstation/fetch_ethoscope_results.sh)
 * You can add this script to a cronjob like in [this one](https://github.com/gilestrolab/labscripts/blob/master/workstation/crontab) (obviously just take the relevant line).
